@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>Animal Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center"> 
+      <h2>Sound controlled Animals</h2> 
+      <p>Note: Play different sounds like barking , meowing</p> 
+    </div>
+    
+    <div class="main_div">
+      <center>
+        <br>
+        <br>
+        <button class="btn btn-primary" onclick="startClassification()">Start</button>
+        <br>
+        <h3 id="result_label">I can hear - </h3>
+        <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpweWv8ksG48PGyuOqMw2YuSRkXoUvjWjtA&usqp=CAU" id="ear" height="300" width="300">
+        <img src="https://media.newyorker.com/photos/602d316d2e74ac1a159da05f/2:1/w_2560,h_1280,c_limit/Heyward-Jack-edit.jpg" id="dog" height="300" width="300">
+        <img src="https://www.nawpic.com/media/2020/cute-cat-nawpic-12.jpg" id="cat" height="300" width="300">
+      </center>
+    </div>
+
+    <div class="copy_right_footer">
+     Developed by - Hansika
+    </div>
+
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
